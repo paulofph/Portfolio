@@ -66,7 +66,7 @@ function Projects() {
               isBlog={false}
               title="Dominos Pizza"
               description="The official website for Domino's Pizza in the UK serves as a digital hub for pizza lovers, offering a streamlined online ordering system, current deals, and a customizable menu to ensure a convenient and enjoyable customer experience."
-              link="https://www.dominos.co.uk/"
+              link="https://www.dominospizza.pt/"
               role="Software Engineer"
             />
           </Col>

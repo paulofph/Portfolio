@@ -20,7 +20,7 @@ function ProjectCards(props) {
       <Card.Footer>
         <Button
           variant="primary"
-          href={props.demoLink}
+          href={props.link}
           target="_blank"
           style={{ marginLeft: "10px" }}
         >
