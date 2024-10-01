@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
+import ListGroup from 'react-bootstrap/ListGroup';
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 
@@ -8,11 +9,14 @@ function ProjectCards(props) {
     <Card className="project-card-view">
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body>
-        <Card.Title>{props.title}</Card.Title>
-        <Card.Text style={{ textAlign: "justify" }}>
+        <Card.Title><b>{props.title}</b></Card.Title>
+        <Card.Text>
           {props.description}
         </Card.Text>
       </Card.Body>
+      <ListGroup>
+        <ListGroup.Item className="project-card-list-item"><b>Role:</b> {props.role}</ListGroup.Item>
+      </ListGroup>
       <Card.Footer>
         <Button
           variant="primary"
