@@ -15,7 +15,9 @@ function ProjectCards(props) {
         </Card.Text>
       </Card.Body>
       <ListGroup>
-        <ListGroup.Item className="project-card-list-item"><b>Role:</b> {props.role}</ListGroup.Item>
+        <ListGroup.Item className="project-card-list-item">
+          <h6><b>{props.role}</b></h6>
+        </ListGroup.Item>
       </ListGroup>
       <Card.Footer>
         <Button

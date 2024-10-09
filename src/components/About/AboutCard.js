@@ -13,7 +13,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="highlighted-text">Paulo Henriques </span>
             from <span className="highlighted-text"> Portugal.</span>
             <br />
-            I am currently working as <span className="highlighted-text">Software Engineer</span> at <a className="external-link" href="https://epilot.cloud/en/">Epilot<FaExternalLinkAlt size={19} className="external-link-icon" /></a>.
+            I am a <span className="highlighted-text">Product Engineer</span> at <a className="external-link" href="https://epilot.cloud/en/">Epilot<FaExternalLinkAlt size={19} className="external-link-icon" /></a>.
             <br />
             I'm also <span className="highlighted-text">Founder</span> and maintainer of <a className="external-link" href="https://www.specialclinic.pt/">Special Clinic<FaExternalLinkAlt size={19} className="external-link-icon" /></a>.
             <br />
